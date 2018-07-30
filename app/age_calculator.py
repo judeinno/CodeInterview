@@ -3,6 +3,7 @@ from _datetime import datetime
 now = datetime.now()
 current_year = now.year
 
+"""This function caculates the age of a person"""
 def ageCalculator(birth_year):
 
     if isinstance(birth_year, int):
