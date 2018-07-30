@@ -11,5 +11,7 @@ def ageCalculator(birth_year):
             age = current_year - birth_year
             print('You are ' + str(age) + ' years old')
             return age
-    return 'Please enter a number.'
+    else:
+        print('Please enter a number.')
+        return 'Please enter a number.'
 
